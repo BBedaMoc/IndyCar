@@ -13,73 +13,59 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\indycar">
+      <UniqueIdentifier>{f0fbc306-efed-43e4-b2f8-3e77afc1c789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\indycar\logic">
+      <UniqueIdentifier>{416a63c7-9ba9-4e8a-952f-0c0cd65a4683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\indycar\gui">
+      <UniqueIdentifier>{e9ce7695-cb8c-4bc0-bc03-f53dc581aae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\indycar">
+      <UniqueIdentifier>{cea76f7c-c251-4cb4-83f8-577a44d3ab07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\indycar\logic">
+      <UniqueIdentifier>{402606b7-bd73-426a-b5d9-ea1537a08c6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\indycar\gui">
+      <UniqueIdentifier>{5acb951b-4ca2-45c9-be74-66200a9747ea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="IndiCar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="car.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\indycar\gui\gamewindow.cpp">
+      <Filter>Source Files\indycar\gui</Filter>
     </ClCompile>
-    <ClCompile Include="boot.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\indycar\logic\bot.cpp">
+      <Filter>Source Files\indycar\logic</Filter>
     </ClCompile>
-    <ClCompile Include="gra.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\indycar\logic\car.cpp">
+      <Filter>Source Files\indycar\logic</Filter>
     </ClCompile>
-    <ClCompile Include="gracz.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\indycar\logic\drawable.cpp">
+      <Filter>Source Files\indycar\logic</Filter>
     </ClCompile>
-    <ClCompile Include="okno.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\indycar\logic\game.cpp">
+      <Filter>Source Files\indycar\logic</Filter>
     </ClCompile>
-    <ClCompile Include="obstacle.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\indycar\logic\obstacle.cpp">
+      <Filter>Source Files\indycar\logic</Filter>
     </ClCompile>
-    <ClCompile Include="drawable.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\indycar\logic\participant.cpp">
+      <Filter>Source Files\indycar\logic</Filter>
     </ClCompile>
-    <ClCompile Include="track.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\indycar\logic\player.cpp">
+      <Filter>Source Files\indycar\logic</Filter>
     </ClCompile>
-    <ClCompile Include="uczestnik.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\indycar\logic\point.cpp">
+      <Filter>Source Files\indycar\logic</Filter>
     </ClCompile>
-    <ClCompile Include="point.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\indycar\logic\track.cpp">
+      <Filter>Source Files\indycar\logic</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="car.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="boot.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="gra.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="gracz.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="okno.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="obstacle.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="drawable.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="track.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="uczestnik.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="point.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="icon.ico">
@@ -101,5 +87,37 @@
     <None Include="IndyData\trasy.cfg">
       <Filter>Resource Files</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\indycar\gui\gamewindow.hpp">
+      <Filter>Header Files\indycar\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\indycar\logic\bot.hpp">
+      <Filter>Header Files\indycar\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\indycar\logic\car.hpp">
+      <Filter>Header Files\indycar\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\indycar\logic\drawable.hpp">
+      <Filter>Header Files\indycar\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\indycar\logic\game.hpp">
+      <Filter>Header Files\indycar\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\indycar\logic\obstacle.hpp">
+      <Filter>Header Files\indycar\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\indycar\logic\participant.hpp">
+      <Filter>Header Files\indycar\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\indycar\logic\player.hpp">
+      <Filter>Header Files\indycar\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\indycar\logic\point.hpp">
+      <Filter>Header Files\indycar\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\indycar\logic\track.hpp">
+      <Filter>Header Files\indycar\logic</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -88,7 +88,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\Programy\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Mariusz\VS19\IndyCar\include;D:\Programy\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -143,29 +143,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="car.cpp" />
-    <ClCompile Include="boot.cpp" />
-    <ClCompile Include="gra.cpp" />
-    <ClCompile Include="gracz.cpp" />
     <ClCompile Include="IndiCar.cpp" />
-    <ClCompile Include="okno.cpp" />
-    <ClCompile Include="obstacle.cpp" />
-    <ClCompile Include="drawable.cpp" />
-    <ClCompile Include="track.cpp" />
-    <ClCompile Include="uczestnik.cpp" />
-    <ClCompile Include="point.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="car.hpp" />
-    <ClInclude Include="boot.h" />
-    <ClInclude Include="gra.h" />
-    <ClInclude Include="gracz.h" />
-    <ClInclude Include="okno.h" />
-    <ClInclude Include="obstacle.hpp" />
-    <ClInclude Include="drawable.hpp" />
-    <ClInclude Include="track.hpp" />
-    <ClInclude Include="uczestnik.h" />
-    <ClInclude Include="point.hpp" />
+    <ClCompile Include="src\indycar\gui\gamewindow.cpp" />
+    <ClCompile Include="src\indycar\logic\bot.cpp" />
+    <ClCompile Include="src\indycar\logic\car.cpp" />
+    <ClCompile Include="src\indycar\logic\drawable.cpp" />
+    <ClCompile Include="src\indycar\logic\game.cpp" />
+    <ClCompile Include="src\indycar\logic\obstacle.cpp" />
+    <ClCompile Include="src\indycar\logic\participant.cpp" />
+    <ClCompile Include="src\indycar\logic\player.cpp" />
+    <ClCompile Include="src\indycar\logic\point.cpp" />
+    <ClCompile Include="src\indycar\logic\track.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="icon.ico" />
@@ -177,6 +165,18 @@
     <None Include="IndyData\auta.cfg" />
     <None Include="IndyData\config.cfg" />
     <None Include="IndyData\trasy.cfg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\indycar\gui\gamewindow.hpp" />
+    <ClInclude Include="include\indycar\logic\bot.hpp" />
+    <ClInclude Include="include\indycar\logic\car.hpp" />
+    <ClInclude Include="include\indycar\logic\drawable.hpp" />
+    <ClInclude Include="include\indycar\logic\game.hpp" />
+    <ClInclude Include="include\indycar\logic\obstacle.hpp" />
+    <ClInclude Include="include\indycar\logic\participant.hpp" />
+    <ClInclude Include="include\indycar\logic\player.hpp" />
+    <ClInclude Include="include\indycar\logic\point.hpp" />
+    <ClInclude Include="include\indycar\logic\track.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
